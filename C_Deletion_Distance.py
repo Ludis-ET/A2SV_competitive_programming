@@ -8,9 +8,5 @@ while l >= 0 and r >= 0 and s1[l] == s2[r]:
     count += 1
     l -= 1
     r -= 1
-
-
-print(len(s1) + len(s2) - (count * 2))
-
-# test
-# west
+# print(len(s1) + len(s2)-  2 * count)
+print(len(s1) + len(s2) - 2 * count)

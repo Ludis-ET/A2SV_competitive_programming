@@ -3,16 +3,6 @@ for _ in range(t):
     n = int(input())
     arr = list(map(int, input().split()))
 
-
-
-
-
-
-    """
-      lr   
-    1 0 0 1 1
-    0 0 1 1 1
-    """
     l, r = 0, n - 1
     count = 0
     while l < r:
