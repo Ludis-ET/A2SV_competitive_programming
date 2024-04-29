@@ -10,11 +10,13 @@ for _ in range(t):
         s = input()
         arr.append(s)
         Set.add(s)
-    # print(arr, Set)
+    # print(Set)
     
     for s in arr:
         found = False
-        # 'abab'
+        """
+        abab
+        """
         for i in range(1, len(s)):
             prefix = s[:i]
             suffix = s[i:]
@@ -25,5 +27,6 @@ for _ in range(t):
             
         # print("=======")
         ans += "1" if found else "0"
+    # print("####\n\n\n")
     
     print(ans)

@@ -10,3 +10,4 @@ while l >= 0 and r >= 0 and s1[l] == s2[r]:
     r -= 1
 # print(len(s1) + len(s2)-  2 * count)
 print(len(s1) + len(s2) - 2 * count)
+
