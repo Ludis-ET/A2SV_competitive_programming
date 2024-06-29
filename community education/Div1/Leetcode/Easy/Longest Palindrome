@@ -1,0 +1,8 @@
+class Solution:
+    def longestPalindrome(self, s: str) -> int:
+        a = Counter(s)
+        ans, one = 0, False
+        for i in a:
+            ans += a[i] - (a[i] % 2 != 0)
+            if a[i] % 2 != 0: one = True
+        return ans + one
